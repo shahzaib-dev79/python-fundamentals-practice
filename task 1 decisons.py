@@ -15,5 +15,5 @@ if n%2 == 0:
     elif n>20:
         print("not Weired")
 else:
-    print("Odd")
+    print("Weired")
 
