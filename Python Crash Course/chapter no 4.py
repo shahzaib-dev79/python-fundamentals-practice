@@ -64,3 +64,28 @@ for i in range(10):
 print(f"first three elements of the list are {cubes[:3]}")
 print(f" three elements in middle of the list are {cubes[4:7]}")
 print(f"last three elements of the list are {cubes[-3:]}")
+
+#4-11
+#your pizza my pizza
+myPizza = pizzas[:]
+friendsPizza = pizzas[:]
+
+
+
+myPizza.append("Crown Crust pizza")
+friendsPizza.append("Pepper Sauce Pizza")
+
+print(f"My pizzas \n{myPizza} \nfriends Pizza\n{friendsPizza}")
+
+
+#4-13
+#Buffet and tuples
+
+buffet = ("chicken Tikka", "Seekh Kabab", "Biryani", "Palao" , "Russian Salad")
+print("Our Restaurant offers following foods")
+for dishes in buffet:
+    print(dishes)
+
+#replacing items
+buffet = ("chicken Tikka", "Tandoori Kabab", "Biryani", "Kheer" , "Russian Salad")
+print(buffet)
